@@ -1,0 +1,31 @@
+.nav_header {
+    display: flex;
+    padding: 1rem 0;
+    width: 100%;
+    background-color: rgb(113, 113, 223);
+}
+
+.nav_header h2 {
+   padding: 1rem 5rem;
+   
+}
+
+.nav_header h2:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.div_header {
+    display: flex;
+    margin-left: 45%;    
+}
+
+.div_header h4 {
+    padding: 1rem;
+}
+
+.div_header h4:hover {
+    color: #fff;
+    cursor: pointer;
+}
+

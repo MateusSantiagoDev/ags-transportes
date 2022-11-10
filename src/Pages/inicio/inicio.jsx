@@ -2,6 +2,6 @@ import "./inicio.css";
 
 export function Inicio() {
     return (
-        <div></div>
+        <div className="div_inicio"></div>
     )
 }

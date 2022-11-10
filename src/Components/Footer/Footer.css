@@ -1,0 +1,32 @@
+.nav_footer {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(113, 113, 223);
+}
+
+.ul_footer {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    padding: .8rem 2rem;
+}
+
+.email a {
+    padding: 0 2rem;
+    font-size: 30px;
+}
+
+.email a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.whatssap a {
+    font-size: 30px;
+}
+
+.whatssap a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
