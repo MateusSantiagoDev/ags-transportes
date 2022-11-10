@@ -1,12 +1,13 @@
 .nav_header {
-    display: flex;
-    padding: 1rem 0;
+    display: flex;    
     width: 100%;
-    background-color: rgb(113, 113, 223);
+    background-color: dimgrey;
+    backdrop-filter: blur(15px);
 }
 
-.nav_header h2 {
-   padding: 1rem 5rem;
+.nav_header img {
+   width: 250px;
+   padding: 0 5rem;
    
 }
 
@@ -17,7 +18,9 @@
 
 .div_header {
     display: flex;
-    margin-left: 45%;    
+    margin-top: 5rem;
+    margin-left: 40%; 
+    margin-bottom: 5rem;    
 }
 
 .div_header h4 {
@@ -25,7 +28,7 @@
 }
 
 .div_header h4:hover {
-    color: #fff;
+    color: goldenrod;
     cursor: pointer;
 }
 
