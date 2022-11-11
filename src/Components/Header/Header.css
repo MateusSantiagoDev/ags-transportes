@@ -32,3 +32,13 @@
     cursor: pointer;
 }
 
+.h4_contato a {
+    text-decoration: none;
+    color: black;
+}
+
+.h4_contato a:hover {
+    color: goldenrod;
+    cursor: pointer;
+}
+
