@@ -1,0 +1,58 @@
+.div_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;  
+    background-image: url("../../assets/fundo-form2.jpeg");  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;    
+}
+
+.form {
+    background-color: #ffffff35;
+    backdrop-filter: blur(25px);
+    border-radius: .5rem;
+}
+
+.div_cadastro{
+    padding: 1rem; 
+}
+
+.div_descricao {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.div_cadastro input {
+    border: solid 2px;
+}
+
+.div_descricao textarea{
+    border: solid 2px;
+}
+
+.div_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_button button {
+    border: none;
+    background-color: #ffffff35;
+    backdrop-filter: blur(25px);
+    color: black;
+    border-radius: .5rem;
+    padding: 0 .5rem;
+    font-weight: 700;
+    border: solid 2px;
+}
+
+.div_button button:hover {
+    cursor: pointer;
+    color: #fff;
+} 

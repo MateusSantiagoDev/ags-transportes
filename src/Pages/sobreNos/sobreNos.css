@@ -1,0 +1,36 @@
+.div_sobrenos {
+    text-align: center;    
+    cursor: context-menu;
+    background-image: url("../../assets/sobrenos2.webp");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 3rem;
+    opacity: 0.8;
+      
+  
+}
+.missao {
+    padding: .3rem;
+    margin-bottom: 5rem;
+    background-color: #ffffff35;
+    backdrop-filter: blur(15px);
+}
+
+.visao {
+    padding: .3rem;
+    margin-bottom: 5rem;
+    background-color: #ffffff35;
+    backdrop-filter: blur(15px);
+}
+
+.valores {
+    padding: .3rem;
+    margin-bottom: 5rem;
+    background-color: #ffffff35;
+    backdrop-filter: blur(15px);
+}
+
+span {
+    font-weight: 700;
+}

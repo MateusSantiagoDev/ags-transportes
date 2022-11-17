@@ -42,3 +42,92 @@
     cursor: pointer;
 }
 
+.button_servicos {
+    background-color: dimgrey;
+    border: none;   
+}
+
+
+.modal {
+    margin-top: 10%;
+    margin-left: 28%;
+    width: 40%;
+    height: 60%;
+    text-align: center;
+    background-image: url("../../assets/Logo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .5rem;
+    padding: .1rem;
+    color: black;
+    border: solid 2px black;
+    
+}
+
+.h4_modal {
+    text-decoration: none;
+    color: #fff;
+}
+
+.h4_modal :hover {
+    color: goldenrod;
+}
+
+.form3 {
+  margin-top: 3rem;
+}
+
+.form3 div {
+    text-align: start;
+    padding: .3rem;
+    
+}
+
+.form3 input {
+    border: solid 2px;
+}
+
+.div_nome_contato {
+    margin-left: 8%;
+}
+
+.div_email_contato {
+    margin-left: 8%;
+}
+
+.div_empresa_contato {
+    margin-left: 8%;
+}
+
+.div_descricao_contato {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.div_descricao_contato textarea {
+    border: solid 2px;
+}
+
+.button_form3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.button_form3 button {
+    border: solid 2px black;
+    padding: 0 .3rem;
+    border-radius: .3rem;
+    color: black;
+    font-weight: 700;
+}
+
+.button_form3 button:hover {
+    color: goldenrod;
+    border: solid 2px #fff;
+}
+
+

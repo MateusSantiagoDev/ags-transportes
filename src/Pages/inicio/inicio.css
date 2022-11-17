@@ -1,8 +1,7 @@
 .div_inicio {
-  display: flex; 
-  
+  display: flex;  
   height: 100vh;
-  background-image: url("../../assets/onibus4.jpg");
+  background-image: url("../../assets/van-executiva-fundo.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -10,37 +9,38 @@
   position: relative;
 }
 
-.div_h2-legenda {
-  margin-top: 8rem;
+.div_body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff35;
+  backdrop-filter: blur(3px);
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-left: 12%;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  border: solid 2px #3c3e44;
 }
 
-.div_h2-legenda h1{
-  margin-left: 15rem;
+.div_h2 h2{ 
   color: goldenrod;
   font-weight: 900;
-}
-
-.div_h2-legenda h1:hover {
-  color: black;
+  text-align: center;
+  padding-right: 1rem;
   cursor: context-menu;
 }
 
-.div_testo {
-  position: absolute;
-  margin-top: 10rem;
-  margin-left: 45%;
-  padding: 2rem;
+.div_testo { 
   text-align: center; 
-  border: solid 2px #3c3e44;
-  border-radius: 1.5rem;
-  background-color: #ffffff35;
-  backdrop-filter: blur(3px);
   font-weight: 700;
-} 
+  cursor: context-menu;
+}  
 
-.form_inicio div {
+.div_geral{
   padding: .5rem;
 }
+
 
 .form_inicio input {
   border: solid 2px;
@@ -49,6 +49,14 @@
   
 }
 
+.div_input1 {
+  display: flex;
+}
+
+.div_input2 {
+  display: flex;
+  justify-content: space-between;
+}
 .button_form {
   border-radius: 2rem;
   font-weight: 900;
@@ -60,6 +68,63 @@
   color: goldenrod;
   background-color: #3c3e44;
   cursor: pointer;
+}
+
+/* 
+ configuração para usar no whatssap
+.div_logo {
+  display: flex; 
+  position: fixed; //////
+  align-items: flex-end;
+  justify-content: flex-start;
+
+} */
+/*
+body{
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background-size: cover; /*Css padrão
+  -webkit-background-size: cover; Css safari e chrome
+  -moz-background-size: cover; Css firefox
+  -ms-background-size: cover; Css IE não use mer#^@%#
+  -o-background-size: cover; Css Opera
+}
+*/
+ .div_logo {
+  margin-top: 1rem;
+  background-image: url("../../assets/fundo2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+   opacity: .5; 
+  width: 100%;
+  /* -webkit-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  */
+} 
+
+.div_logo span {
+  position: absolute;
+  background-color: black;
+  color: black;
+  margin-left: 8%;
+  margin-top: 5%;
+  font-weight: 700;
+  
+}
+
+.logo_img{  
+ 
+  margin-top: 1rem;
+  margin-left: 2rem;
+  border-radius: .5rem;
+  background-color: #ffffff35;
+  backdrop-filter: blur(15px);
+  width: 250px;
+  
+ 
+
+ 
 }
 
 
