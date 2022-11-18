@@ -1,6 +1,6 @@
 import "./Header.css";
 import Logo from "../../assets/Logo.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Modal from "react-modal";
 import { useState } from "react";
 
@@ -14,6 +14,7 @@ Modal.setAppElement("#root");
 
 export function Header() {
   const [statusModal, setStatusModal] = useState(false);
+  const navegate = useNavigate()
 
   function close() {
     setStatusModal(!statusModal);
@@ -32,7 +33,7 @@ export function Header() {
         <button
           className="button_servicos"
           onClick={() => {
-            close();
+            navegate("/servicos")
           }}
         >
           <h4>Serviços</h4>

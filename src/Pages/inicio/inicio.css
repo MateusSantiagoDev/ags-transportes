@@ -1,3 +1,5 @@
+
+
 .div_inicio {
   display: flex;  
   height: 100vh;
@@ -120,12 +122,14 @@ body{
   border-radius: .5rem;
   background-color: #ffffff35;
   backdrop-filter: blur(15px);
-  width: 250px;
-  
- 
-
- 
+  width: 250px; 
 }
+
+.whatssap_ul {
+  display: flex;  
+  align-items: flex-end;
+  justify-content: end;  
+} 
 
 
 

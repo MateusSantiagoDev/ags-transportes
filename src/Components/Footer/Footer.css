@@ -32,3 +32,19 @@
     cursor: pointer;
 }
 
+.div_footer {
+    margin-top: 1rem;  
+}
+
+.linha {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, goldenrod, transparent);        
+}
+
+.legenda {
+    text-align: center;
+    font-family: "eixo";
+    color: goldenrod;   
+}
+
