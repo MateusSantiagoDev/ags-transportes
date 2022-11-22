@@ -24,7 +24,7 @@
 }
 
 .div_header h4 {
-    padding: 1rem;
+    padding: 1rem;      
 }
 
 .div_header h4:hover {
@@ -32,19 +32,26 @@
     cursor: pointer;
 }
 
-.h4_contato a {
+.link {
     text-decoration: none;
     color: black;
+    font-weight: 500;
+    font-family: "eixo";
 }
 
-.h4_contato a:hover {
-    color: goldenrod;
-    cursor: pointer;
-}
 
 .button_servicos {
     background-color: dimgrey;
-    border: none;   
+    border: none;
+    font-weight: 700;
+    font-family: "eixo";   
+}
+
+.button_contato {
+    background-color: dimgrey;
+    border: none; 
+    font-weight: 700;
+    font-family: "eixo";
 }
 
 

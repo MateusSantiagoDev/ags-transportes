@@ -1,19 +1,54 @@
-.div_servicos {
+.div_servicos{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px 40px;
     padding: 5rem;
+
 }
 
-.div_servicos button { 
+ /* .div_servicos :hover {
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 5px rgb(116, 114, 114);
+    cursor: pointer;
+    border: none; 
+} */
+
+.butto_card { 
     height: 50vh;
     width: 100%;
     font-weight: 700;
     padding: .5rem;
+    cursor: pointer;
 }
+    
 
-.div_servicos img {
+.img_card {
     margin-top: .3rem;
     width: 100%;
     height: 90%;
+}
+
+.modal {
+    background-color: #ffffff35;
+    backdrop-filter: blur(35px);    
+}
+
+.div_lorem {
+   margin-top: 3rem;
+   padding: .5rem;
+   color: #fff;
+}
+
+.btm_div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.btm_div button {
+    cursor: pointer;
+    background-color: #ffffff35;
+    backdrop-filter: blur(35px);  
+    border: none;
+    border-radius: .3rem;    
 }

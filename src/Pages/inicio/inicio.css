@@ -125,11 +125,57 @@ body{
   width: 250px; 
 }
 
-.whatssap_ul {
-  display: flex;  
-  align-items: flex-end;
-  justify-content: end;  
-} 
+.contatos_ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ /*  background-image: url("../../assets//fale-conosco3.jpg"); */
+/*   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  list-style: none;  
+  background-color: #3c3e44;
+  padding: 1rem;
+}
 
+.contatos_ul li {
+  padding: 0 1rem;
+  
+}
 
+.contatos_ul li a {
+  font-size: 50px;  
+}
+
+.whatssap_logo a {
+  color: green;
+}
+
+.whatssap_logo a:hover {
+  color: goldenrod;
+}
+
+.instagram_logo a {
+  color: rgb(167, 57, 57);
+}
+
+.instagram_logo a:hover {
+  color: goldenrod;
+}
+
+.facebook_logo a {
+  color: rgb(33, 33, 204);
+}
+
+.facebook_logo a:hover {
+  color: goldenrod;
+}
+
+.email_logo a {
+  color: #fff;
+}
+
+.email_logo a:hover {
+  color: goldenrod;
+}
 

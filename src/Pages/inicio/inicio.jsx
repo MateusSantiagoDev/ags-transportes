@@ -2,7 +2,9 @@ import "./inicio.css";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import Logo from "../../assets/Logo.png";
-import { RiWhatsappFill } from "react-icons/ri";
+import { RiWhatsappFill, RiInstagramFill } from "react-icons/ri";
+import { GrFacebook } from "react-icons/gr"
+import { TfiEmail } from "react-icons/tfi"
 
 export function Inicio() {
   const [data, setData] = useState([]);
@@ -110,10 +112,28 @@ export function Inicio() {
         <img className="logo_img" src={Logo} alt="logo" />
       </div>
 
-      <ul className="whatssap_ul">
+      <ul className="contatos_ul">
         <li className="whatssap_logo">
           <a href="/" target="_blanc">
             <RiWhatsappFill />
+          </a>
+        </li>
+
+        <li className="instagram_logo">
+          <a href="/" target="_blanc">
+            <RiInstagramFill />
+          </a>
+        </li>
+
+        <li className="facebook_logo">
+          <a href="/" target="_blanc">
+            <GrFacebook />
+          </a>
+        </li>
+
+        <li className="email_logo">
+          <a href="/" target="_blanc">
+            <TfiEmail />
           </a>
         </li>
       </ul>

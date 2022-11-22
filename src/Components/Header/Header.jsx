@@ -1,6 +1,7 @@
 import "./Header.css";
 import Logo from "../../assets/Logo.png";
 import { Link, useNavigate } from "react-router-dom";
+import { CgCloseO } from "react-icons/cg";
 import Modal from "react-modal";
 import { useState } from "react";
 
@@ -24,10 +25,10 @@ export function Header() {
     <nav className="nav_header">
       <img src={Logo} alt="logo da empresa" />
       <div className="div_header">
-        <Link to={"/"}>
+        <Link className="link" to={"/"}>
           <h4 className="h4_inicio">Inicio</h4>
         </Link>
-        <Link to={"/sobre-nos"}>
+        <Link className="link" to={"/sobre-nos"}>
           <h4 className="h4_sobre-nos">Sobre nós</h4>
         </Link>
         <button
@@ -39,12 +40,13 @@ export function Header() {
           <h4>Serviços</h4>
         </button>
         <button
-          className="h4_contato"
+          className="button_contato"
           onClick={() => {
             close();
+            navegate("/")
           }}
         >
-          Contate-nos
+          <h4>Contate-nos</h4>
         </button>
       </div>
       <div className="div_modal">
@@ -55,6 +57,9 @@ export function Header() {
           contentLabol="menu-modal"
           style={customStyle}
         >
+          <div className="btm_div">
+          <button onClick={close}><CgCloseO size={15} color="red" className="btm_modal"/></button>
+          </div>
           <form className="form3">
             <div className="div_nome_contato">
               <span>Nome : </span>

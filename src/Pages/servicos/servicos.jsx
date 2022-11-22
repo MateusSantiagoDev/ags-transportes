@@ -1,6 +1,7 @@
 import "./servicos.css";
 import { useState } from "react";
 import Modal from "react-modal";
+import { CgCloseO } from "react-icons/cg";
 import receptivoimg from "../../assets/receptivoimg.jpg";
 import transladoimg from "../../assets/transladoimg.jpg";
 import turismoimg from "../../assets/turismoimg.png";
@@ -8,7 +9,7 @@ import corporativoimg from "../../assets/corporativoimg.jpg";
 
 const customStyle = {
   overlay: {
-    background: "rgb(0, 0, 0, 0.4)",
+    background: "rgb(0, 0, 0, 0.6)",
   },
 };
 
@@ -45,34 +46,51 @@ export function Servicos() {
   return (
     <div className="div_servicos">
       <button
+        className="butto_card"
         onClick={() => {
           close();
           state1();
         }}
-      >Receptivo<img src={receptivoimg} alt="Receptivo" />
+      >
+        Receptivo
+        <img src={receptivoimg} alt="Receptivo" className="img_card" />
       </button>
       <button
+        className="butto_card"
         onClick={() => {
           close();
           state2();
         }}
-      >Translados<img src={transladoimg} alt="Translados" />
+      >
+        Translados
+        <img src={transladoimg} alt="Translados" className="img_card" />
       </button>
       <button
+        className="butto_card"
         onClick={() => {
           close();
           state3();
         }}
-      >Fretamento e turismo<img src={turismoimg} alt="Fretamento e turismo" />
+      >
+        Fretamento e turismo
+        <img src={turismoimg} alt="Fretamento e turismo" className="img_card" />
       </button>
       <button
+        className="butto_card"
         onClick={() => {
           close();
           state4();
         }}
-      >Fretamento corporativo<img src={corporativoimg} alt="Fretamento corporativo" />        
+      >
+        Fretamento corporativo
+        <img
+          src={corporativoimg}
+          alt="Fretamento corporativo"
+          className="img_card"
+        />
       </button>
       <div className="div_modal">
+        
         <Modal
           className="modal"
           isOpen={status}
@@ -80,8 +98,11 @@ export function Servicos() {
           contentLabol="menu-modal"
           style={customStyle}
         >
+          <div className="btm_div">
+          <button onClick={close}><CgCloseO size={15} color="red" className="btm_modal"/></button>
+          </div>
           {receptivo ? (
-            <div>
+            <div className="div_lorem">
               <span>
                 111 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Laudantium velit saepe reprehenderit ut aspernatur vero fuga
@@ -91,7 +112,7 @@ export function Servicos() {
               </span>
             </div>
           ) : translados ? (
-            <div>
+            <div className="div_lorem">
               <span>
                 2222 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Aut repudiandae sint porro magnam esse ad enim similique fugit
@@ -100,7 +121,7 @@ export function Servicos() {
               </span>
             </div>
           ) : turismo ? (
-            <div>
+            <div className="div_lorem">
               <span>
                 3333 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Unde cum architecto autem, voluptatum odio, rerum esse velit
@@ -109,7 +130,7 @@ export function Servicos() {
               </span>
             </div>
           ) : corporativo ? (
-            <div>
+            <div className="div_lorem">
               <span>
                 4444 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequuntur eligendi dolores pariatur maiores dignissimos odio
@@ -120,7 +141,7 @@ export function Servicos() {
           ) : (
             close
           )}
-          <button></button>
+          
         </Modal>
       </div>
     </div>
