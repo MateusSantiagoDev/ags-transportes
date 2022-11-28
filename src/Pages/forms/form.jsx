@@ -27,6 +27,36 @@ export function Form() {
                     <input type="email" name="email" placeholder="Email para contato" />
                     </div>
 
+                    <div className="div_nome div_cadastro">
+                    <span>Local da partida : </span>
+                    <input type="text" name="origem" required placeholder="Digite o local da partida" />
+                    </div>
+
+                    <div className="div_nome div_cadastro">
+                    <span>Destino : </span>
+                    <input type="text" name="destino" required placeholder="Digite o local de destino" />
+                    </div>
+
+                    <div className="div_nome div_cadastro">
+                    <span>Data : </span>
+                    <input type="date" name="data" required/>
+                    </div>
+
+                    <div className="div_nome div_cadastro">
+                    <span>Hora : </span>
+                    <input type="time" name="hora" required/>
+                    </div>
+
+                    <div className="div_nome div_cadastro">
+                    <span>Só ida : </span>
+                    <input type="checkbox" name="ida" required/>
+                    </div>
+
+                    <div className="div_nome div_cadastro">
+                    <span>Ida e volta : </span>
+                    <input type="checkbox" name="volta" required/>
+                    </div>
+
                     <div className="div_qtd div_cadastro">
                     <span>Quantidade de passageiros : </span>
                     <input type="number" name="quantidade" placeholder="Quantidade de pessoas"/>

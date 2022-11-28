@@ -5,51 +5,38 @@ import { CgCloseO } from "react-icons/cg";
 import Modal from "react-modal";
 import { useState } from "react";
 
-const customStyle = {
+/* const customStyle = {
   overlay: {
     background: "rgb(92, 91, 91)",
   },
 };
 
-Modal.setAppElement("#root");
+Modal.setAppElement("#root"); */
 
 export function Header() {
-  const [statusModal, setStatusModal] = useState(false);
+/*   const [statusModal, setStatusModal] = useState(false); */
   const navegate = useNavigate()
 
-  function close() {
+ /*  function close() {
     setStatusModal(!statusModal);
-  }
+  } */
 
   return (
     <nav className="nav_header">
       <img src={Logo} alt="logo da empresa" />
       <div className="div_header">
-        <Link className="link" to={"/"}>
+        <Link className="link link_inicio" to={"/"}>
           <h4 className="h4_inicio">Inicio</h4>
         </Link>
         <Link className="link" to={"/sobre-nos"}>
           <h4 className="h4_sobre-nos">Sobre nós</h4>
         </Link>
-        <button
-          className="button_servicos"
-          onClick={() => {
-            navegate("/servicos")
-          }}
-        >
-          <h4>Serviços</h4>
-        </button>
-        <button
-          className="button_contato"
-          onClick={() => {
-            close();
-            navegate("/")
-          }}
-        >
-          <h4>Contate-nos</h4>
-        </button>
+        <Link className="link" to={"/servicos"}><h4 className="button_servicos">Serviços</h4></Link>
+          
+        
+          <a className="button_contato link" href="/" target="_blanc"><h4>Contate-nos</h4></a>
       </div>
-      <div className="div_modal">
+      {/* <div className="div_modal">
         <Modal
           className="modal"
           isOpen={statusModal}
@@ -102,7 +89,7 @@ export function Header() {
             </div>
           </form>
         </Modal>
-      </div>
+      </div> */}
     </nav>
   );
 }

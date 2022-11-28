@@ -6,6 +6,10 @@ import receptivoimg from "../../assets/receptivoimg.jpg";
 import transladoimg from "../../assets/transladoimg.jpg";
 import turismoimg from "../../assets/turismoimg.png";
 import corporativoimg from "../../assets/corporativoimg.jpg";
+import servicos6 from "../../assets/servicos6.jpg"
+import servicos1 from "../../assets/servicos1.jpg"
+import servicos7 from "../../assets/servicos7.jpg"
+import servicos8 from "../../assets/servicos8.jpg"
 
 const customStyle = {
   overlay: {
@@ -92,7 +96,7 @@ export function Servicos() {
       <div className="div_modal">
         
         <Modal
-          className="modal"
+          className="modal-servicos"
           isOpen={status}
           onRequestClose={close}
           contentLabol="menu-modal"
@@ -108,8 +112,10 @@ export function Servicos() {
                 Laudantium velit saepe reprehenderit ut aspernatur vero fuga
                 magnam architecto aliquid? Corrupti, autem. Cum dignissimos,
                 voluptates repudiandae temporibus cumque laborum architecto
-                illum.
               </span>
+              <div className="div_modeal-servicos">
+                <img src={servicos6} alt="img_serviços" />
+              </div>
             </div>
           ) : translados ? (
             <div className="div_lorem">
@@ -119,6 +125,9 @@ export function Servicos() {
                 quasi aliquam, perspiciatis reiciendis id consequuntur?
                 Laudantium similique sint quibusdam fugit recusandae.
               </span>
+              <div className="div_modeal-servicos">
+                <img src={servicos1} alt="img_serviços" />
+              </div>
             </div>
           ) : turismo ? (
             <div className="div_lorem">
@@ -128,6 +137,9 @@ export function Servicos() {
                 illo rem ratione nostrum ab adipisci harum maxime voluptate
                 aperiam! Consectetur, velit dolor.
               </span>
+              <div className="div_modeal-servicos">
+                <img src={servicos7} alt="img_serviços" />
+              </div>
             </div>
           ) : corporativo ? (
             <div className="div_lorem">
@@ -137,6 +149,9 @@ export function Servicos() {
                 totam odit veniam laboriosam libero architecto deleniti vitae
                 accusamus, dolor expedita voluptates quod dolorem officiis!
               </span>
+              <div className="div_modeal-servicos">
+                <img src={servicos8} alt="img_serviços" />
+              </div>
             </div>
           ) : (
             close

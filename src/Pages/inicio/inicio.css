@@ -1,49 +1,101 @@
-
-
 .div_inicio {
-  display: flex;  
+  display: flex;
+  justify-content: space-between;
   height: 100vh;
   background-image: url("../../assets/van-executiva-fundo.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-top: 1rem;
+ 
   position: relative;
+  padding: 3rem;
 }
 
-.div_body {
+.div_video {
+  background-image: url("../../assets/enviar-cotacao3.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+
+  margin-top: 1%;
+  width: 100%;
+}
+
+.video {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 50vh;
+  border: solid goldenrod 3px;
+  border-radius: 0 3rem 3rem 0;
+}
+
+.video_mp4 {
+  width: 100%;
+}
+
+/* .div_div2 {
+   margin-top: 35%;
+   height: 50%;
+   width: 60%; 
+   margin-left: 10%; 
+} */
+
+
+
+.div_h2 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background-color: #ffffff35;
-  backdrop-filter: blur(3px);
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-  margin-left: 12%;
-  padding: 2rem;
-  border-radius: 1.5rem;
-  border: solid 2px #3c3e44;
+  justify-content: center;
+  margin-top: 35%;
+  background-color: #3c3e44;
+  border: solid 2px #fff;
+  border-radius: 1rem;
+  width: 40%;
+  height: 10%;
 }
 
-.div_h2 h2{ 
-  color: goldenrod;
+.div_h2 h2 {
+  color: rgb(216, 162, 25);
   font-weight: 900;
   text-align: center;
-  padding-right: 1rem;
   cursor: context-menu;
+ 
 }
 
-.div_testo { 
-  text-align: center; 
-  font-weight: 700;
-  cursor: context-menu;
-}  
+.div_button-cotacao {
+  height: 30%;
+  width: 30%;
+  margin-top: 80vh; 
+  text-align: center;
+  font-weight: 900; 
 
-.div_geral{
-  padding: .5rem;
+}
+
+.button_cotacao {  
+  height: 100%;
+  width: 100%;
+  background-image: url("../../assets/foto-cotacao2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: .5rem;  
+  border: solid 2px goldenrod;
+  color: #fff;
+ 
+}
+
+.div_button-cotacao :hover {
+  color: goldenrod;
+  transform: scale(1.1);
+  cursor: pointer;
+  border:  goldenrod;
+
+  
 }
 
 
+
+/* 
 .form_inicio input {
   border: solid 2px;
   border-radius: 2rem;
@@ -58,8 +110,8 @@
 .div_input2 {
   display: flex;
   justify-content: space-between;
-}
-.button_form {
+}*/
+/* .button_form {
   border-radius: 2rem;
   font-weight: 900;
   background-color: #fff;
@@ -70,7 +122,7 @@
   color: goldenrod;
   background-color: #3c3e44;
   cursor: pointer;
-}
+} */
 
 /* 
  configuração para usar no whatssap
@@ -91,19 +143,20 @@ body{
   -o-background-size: cover; Css Opera
 }
 */
- .div_logo {
-  margin-top: 1rem;
+
+.div_logo {
+  margin-top: 1%;
   background-image: url("../../assets/fundo2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-   opacity: .5; 
+  opacity: 0.5;
   width: 100%;
   /* -webkit-background-size: cover;
   -ms-background-size: cover;
   -o-background-size: cover;
   */
-} 
+}
 
 .div_logo span {
   position: absolute;
@@ -112,39 +165,36 @@ body{
   margin-left: 8%;
   margin-top: 5%;
   font-weight: 700;
-  
 }
 
-.logo_img{  
- 
+.logo_img {
   margin-top: 1rem;
   margin-left: 2rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background-color: #ffffff35;
   backdrop-filter: blur(15px);
-  width: 250px; 
+  width: 250px;
 }
 
 .contatos_ul {
   display: flex;
   justify-content: center;
   align-items: center;
- /*  background-image: url("../../assets//fale-conosco3.jpg"); */
-/*   background-position: center;
+  /*  background-image: url("../../assets//fale-conosco3.jpg"); */
+  /*   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
-  list-style: none;  
+  list-style: none;
   background-color: #3c3e44;
   padding: 1rem;
 }
 
 .contatos_ul li {
   padding: 0 1rem;
-  
 }
 
 .contatos_ul li a {
-  font-size: 50px;  
+  font-size: 50px;
 }
 
 .whatssap_logo a {
@@ -178,4 +228,3 @@ body{
 .email_logo a:hover {
   color: goldenrod;
 }
-
