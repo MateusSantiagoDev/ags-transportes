@@ -1,230 +1,38 @@
-.div_inicio {
-  display: flex;
-  justify-content: space-between;
-  height: 100vh;
-  background-image: url("../../assets/van-executiva-fundo.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
- 
-  position: relative;
-  padding: 3rem;
-}
-
-.div_video {
-  background-image: url("../../assets/enviar-cotacao3.jpg");
-  background-position: right;
-  background-repeat: no-repeat;
-
-  margin-top: 1%;
+.div_inicio { 
   width: 100%;
-}
-
-.video {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  height: 50vh;
-  border: solid goldenrod 3px;
-  border-radius: 0 3rem 3rem 0;
-}
-
-.video_mp4 {
-  width: 100%;
-}
-
-/* .div_div2 {
-   margin-top: 35%;
-   height: 50%;
-   width: 60%; 
-   margin-left: 10%; 
-} */
-
-
-
-.div_h2 {
+  background-color: aquamarine;
+  /*//////// position: fixed;*/
+  margin: 0 auto;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 35%;
-  background-color: #3c3e44;
-  border: solid 2px #fff;
-  border-radius: 1rem;
-  width: 40%;
-  height: 10%;
-}
-
-.div_h2 h2 {
-  color: rgb(216, 162, 25);
-  font-weight: 900;
-  text-align: center;
-  cursor: context-menu;
- 
-}
-
-.div_button-cotacao {
-  height: 30%;
-  width: 30%;
-  margin-top: 80vh; 
-  text-align: center;
-  font-weight: 900; 
 
 }
 
-.button_cotacao {  
-  height: 100%;
-  width: 100%;
-  background-image: url("../../assets/foto-cotacao2.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: .5rem;  
-  border: solid 2px goldenrod;
-  color: #fff;
- 
-}
-
-.div_button-cotacao :hover {
-  color: goldenrod;
-  transform: scale(1.1);
-  cursor: pointer;
-  border:  goldenrod;
-
+.slider {
+  background-color: bisque; 
+  cursor: grab;
+  overflow: hidden;
   
 }
 
-
-
-/* 
-.form_inicio input {
-  border: solid 2px;
-  border-radius: 2rem;
-  cursor: pointer;
-  
-}
-
-.div_input1 {
-  display: flex;
-}
-
-.div_input2 {
-  display: flex;
-  justify-content: space-between;
-}*/
-/* .button_form {
-  border-radius: 2rem;
-  font-weight: 900;
-  background-color: #fff;
-  color: black;
-}
-
-.button_form:hover {
-  color: goldenrod;
-  background-color: #3c3e44;
-  cursor: pointer;
-} */
-
-/* 
- configuração para usar no whatssap
-.div_logo {
+.inner {
+  background-color: blueviolet;
   display: flex; 
-  position: fixed; //////
-  align-items: flex-end;
-  justify-content: flex-start;
-
-} */
-/*
-body{
-  background: url(../img/bg.jpg) no-repeat center center fixed;
-  background-size: cover; /*Css padrão
-  -webkit-background-size: cover; Css safari e chrome
-  -moz-background-size: cover; Css firefox
-  -ms-background-size: cover; Css IE não use mer#^@%#
-  -o-background-size: cover; Css Opera
 }
-*/
 
-.div_logo {
-  margin-top: 1%;
-  background-image: url("../../assets/fundo2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  opacity: 0.5;
+.el {
+  background-color: chartreuse;
+  height: 80vh;
+  min-width: 80%;
+  padding: 0 14px;
+  
+}
+
+.el img {   
   width: 100%;
-  /* -webkit-background-size: cover;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  */
-}
-
-.div_logo span {
-  position: absolute;
-  background-color: black;
-  color: black;
-  margin-left: 8%;
-  margin-top: 5%;
-  font-weight: 700;
-}
-
-.logo_img {
-  margin-top: 1rem;
-  margin-left: 2rem;
-  border-radius: 0.5rem;
-  background-color: #ffffff35;
-  backdrop-filter: blur(15px);
-  width: 250px;
-}
-
-.contatos_ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /*  background-image: url("../../assets//fale-conosco3.jpg"); */
-  /*   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  list-style: none;
-  background-color: #3c3e44;
-  padding: 1rem;
-}
-
-.contatos_ul li {
-  padding: 0 1rem;
-}
-
-.contatos_ul li a {
-  font-size: 50px;
-}
-
-.whatssap_logo a {
-  color: green;
-}
-
-.whatssap_logo a:hover {
-  color: goldenrod;
-}
-
-.instagram_logo a {
-  color: rgb(167, 57, 57);
-}
-
-.instagram_logo a:hover {
-  color: goldenrod;
-}
-
-.facebook_logo a {
-  color: rgb(33, 33, 204);
-}
-
-.facebook_logo a:hover {
-  color: goldenrod;
-}
-
-.email_logo a {
-  color: #fff;
-}
-
-.email_logo a:hover {
-  color: goldenrod;
+  height: 100%;
+  border-radius: 12px;
+  pointer-events: none;
 }

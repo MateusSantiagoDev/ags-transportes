@@ -1,149 +1,74 @@
-.nav_header {
+
+.div_vazia0 {
   display: flex;
-  width: 100%;
-  background-color: #3c3e44;
-  height: 150px;
 }
 
-.nav_header img {
-  width: 150px;
-  height: 150px;
-  padding: 0 5rem;
+.div_vazia1 {
+  position: absolute;
+   margin-left: 30%; 
+   width: 0;
+   height: 0;
+   border-top: 0 solid transparent;
+   border-right: 82px solid goldenrod;
+   border-bottom: 63px solid transparent; 
 }
 
-.nav_header h2:hover {
-  color: #fff;
-  cursor: pointer;
-}
-
-.div_header {
-  display: flex;
-  width: 90%;
+.div_vazia2 {
+  position: absolute;
+  margin-left: 36%;
+  width: 64%;
+  height: 10vh;
   background-color: goldenrod;
-  height: 100%;
-  justify-content: end;
-  align-items: flex-end;
-  border-radius: 10rem 0 10rem 0;
 }
 
-.div_header h4 {
-  padding: 1rem;
+.div_logo {
+  display: flex;
+  height: 20vh;
+  width: 70%;
+  background-color: #3c3e44;
+
 }
 
-.div_header h4:hover {
-  color: #fff;
-  cursor: pointer;
+.div_logo img {
+  width: 250px;
+  height: 150px;
+  margin-left: 2.5rem;
 }
 
-.link_inicio {
-    border-radius: 3rem 0 0 0;
+.div_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8%; 
+  margin-left: 20%;
+  height: 30%;
 }
 
 .link {
-  background-color: #ffffff35;
-  backdrop-filter: blur(2px);
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-  font-family: "eixo";
-  height: 50%;
-}
-
-.button_servicos { 
-  border: none;
-  font-weight: 700;
-  font-family: "eixo";
-}
-
-.button_contato {  
-  background-color: #ffffff35;
-  backdrop-filter: blur(2px);
-  border: none;
-  font-weight: 700;
-  font-family: "eixo";
   text-decoration: none;
 }
 
-
-
-
-/* 
-.modal {
-  margin-top: 10%;
-  margin-left: 28%;
-  width: 40%;
-  height: 60%;
-  text-align: center;
-  background-image: url("../../assets/Logo.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 0.5rem;
-  padding: 0.1rem;
-  color: black;
-  border: solid 2px black;
-}
-
-.h4_modal {
-  text-decoration: none;
-  color: #fff;
-}
-
-.h4_modal :hover {
-  color: goldenrod; 
-}*/
-/* 
-.form3 {
-  margin-top: 3rem;
-}
-
-.form3 div {
-  text-align: start;
-  padding: 0.3rem;
-}
-
-.form3 input {
-  border: solid 2px;
-}
-
-.div_nome_contato {
-  margin-left: 8%;
-}
-
-.div_email_contato {
-  margin-left: 8%;
-}
-
-.div_empresa_contato {
-  margin-left: 8%;
-}
-
-.div_descricao_contato {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.div_descricao_contato textarea {
-  border: solid 2px;
-}
-
-.button_form3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem;
-}
-
-.button_form3 button {
-  border: solid 2px black;
-  padding: 0 0.3rem;
-  border-radius: 0.3rem;
+.h4_link {
+  padding: 0 1rem;
+  margin-right: 1rem; 
   color: black;
   font-weight: 700;
+  font-family: "eixo";
 }
 
-.button_form3 button:hover {
+.h4_link:hover {
   color: goldenrod;
-  border: solid 2px #fff;
 }
- */
+
+.div_vazia3 {
+  position: absolute;
+  margin-top: 4.7%;
+   margin-left: 70%; 
+   width: 0;
+   height: 0;
+   border-top: 62px solid transparent;
+   border-left: 82px solid #3c3e44;
+   border-bottom: 0px solid transparent; 
+}
+
+
